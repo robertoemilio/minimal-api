@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Minimal_api.Dominio.Enuns;
+using MinimalApi.Dominio.Enuns;
 
 namespace MinimalApi.Dominio.ModelViews;
 

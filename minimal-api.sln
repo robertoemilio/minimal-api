@@ -1,24 +1,28 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimal-api", "minimal-api.csproj", "{56229A69-2304-B6A4-8899-D751540EB7D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimal-api", "Api\minimal-api.csproj", "{C1FD43E5-FB7E-4618-AD95-9186DD06D944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{26994C65-328D-45CC-8C57-F8C7B790F1CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{56229A69-2304-B6A4-8899-D751540EB7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56229A69-2304-B6A4-8899-D751540EB7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56229A69-2304-B6A4-8899-D751540EB7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56229A69-2304-B6A4-8899-D751540EB7D8}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8B6C7277-CF40-40D7-BEA5-A633BB1B8385}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1FD43E5-FB7E-4618-AD95-9186DD06D944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FD43E5-FB7E-4618-AD95-9186DD06D944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FD43E5-FB7E-4618-AD95-9186DD06D944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FD43E5-FB7E-4618-AD95-9186DD06D944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26994C65-328D-45CC-8C57-F8C7B790F1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26994C65-328D-45CC-8C57-F8C7B790F1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26994C65-328D-45CC-8C57-F8C7B790F1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26994C65-328D-45CC-8C57-F8C7B790F1CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

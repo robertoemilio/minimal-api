@@ -1,4 +1,4 @@
-using Minimal_api.Dominio.Enuns;
+using MinimalApi.Dominio.Enuns;
 
 namespace MinimalApi.DTOs;
 

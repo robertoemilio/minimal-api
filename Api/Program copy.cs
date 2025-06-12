@@ -1,4 +1,4 @@
-using MinimalApi.Infraestrutura.Db;
+/*using MinimalApi.Infraestrutura.Db;
 using MinimalApi.DTOs;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
@@ -317,3 +317,4 @@ app.UseAuthorization();
 
 app.Run();
 #endregion
+*/
